@@ -1,0 +1,43 @@
+
+
+	*{ font-family: 'Tangerine', serif;
+      }
+    h1{
+      display: flex;
+      justify-content: center;
+      font-style: normal;color: white;}
+
+  #body{ background-color:black ;}
+
+  .header{
+      font-style: normal;color: white;
+            background-image:url(Basket.jpg);
+	          width: 100%; 
+            height: 500px;
+	          left: 0;
+	          top: 0; 
+	          position: fixed;}
+
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: lightgray;
+  padding: 10PX;}
+  #Video{
+    display: flex;
+    justify-content: space-around;}
+  
+  h2{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;}
+
+h5{display: flex;
+       align-items: center;           
+      font-style: normal;color: white;
+    }
+
+#pie{font-style:normal ;color: white;}
+  </style>
+  .navbar {background-color: black;}
