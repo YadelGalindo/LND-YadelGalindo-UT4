@@ -1,80 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <title>ACTIVIDAD UT4</title>
+    <link rel="stylesheet" href="Actividad4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <!-- navbar -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Carrusel -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    h1{
-      display: flex;
-      justify-content: center;
-      font-style: normal;color: white;}
-    body{background-color:black ;}
-    .información{background-color: grey;
-      width: 200px;
-      height: 200px;
-      
-    }
-    .header{font-style: normal;color: white;
-            background-image:url(Basket.jpg);
-	          width: 100%; 
-            height: 500px;
-	          left: 0;
-	          top: 0; 
-	          position: fixed; 
-    
-    }
-    table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  background-color: lightgray;
-  padding: 10PX;
-}
-   #Video{
-    display: flex;
-    justify-content: space-around;}
-     h2{
-        font-style:bold;color: darkorange;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;}
-   
-    h5{display: flex;
-       align-items: center;           
-      font-style: normal;color: white;
-    }
-    #noticias{  
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-
-    }
-    h3{font-style: normal;color: white;}
-  
-  </style>
 </head>
-<body>
+<body id="body">
    <!-- Encabezado-->
   <div class="header"></div>
   <!-- Menú de navegación -->
-  <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="Actividad UT4.html">Home</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="https://acortar.link/SfBfij">Clasificación</a></li>
-            <li><a href="https://espndeportes.espn.com/basquetbol/">Noticias</a></li>
-            <li><a href="https://espndeportes.espn.com/basquetbol/nba/resultados">Resultados</a></li>
-            <li><a href="Jugadores de la semana.html">Jugadores de la semana</a></li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tirando de TRES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Actividad UT4.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="NOTICIAS.html">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Jugadores de la semana.html">Jugadores de la jornada</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"href="#">Resultados</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
       <br>
       <br>
@@ -128,11 +93,11 @@
   </div>
 </div>
 <br>
-<h1>NOTICIAS</h1>
+<h1 id="titulo">NOTICIAS</h1>
 <br>
 <div id="noticias">
     <div>
-    <h2>TRASPASADO A PHOENIX</h2>
+    <h2 id="titulo">TRASPASADO A PHOENIX</h2>
     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Nullam scelerisque cursus commodo
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -145,7 +110,7 @@
     </h3>
     </div>
     <div >
-        <img src="Kevin-Durant.jpg">
+        <img id="KD" src="Kevin-Durant.jpg">
     </div>
 
 
@@ -154,7 +119,7 @@
 <BR>
 <div id="noticias">
     <div>
-    <h2>PROBLEMAS EN MEMPHIS</h2>
+    <h2 id="titulo">PROBLEMAS EN MEMPHIS</h2>
     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Nullam scelerisque cursus commodo
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -167,7 +132,7 @@
     </h3>
     </div>
     <div id="jamorant">
-        <img src="ja morant.jpg">
+        <img id="jamorant" src="ja morant.jpg">
     </div>
 
 
@@ -175,3 +140,4 @@
 </div>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>

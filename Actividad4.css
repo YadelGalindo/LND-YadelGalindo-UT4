@@ -5,27 +5,26 @@
     h1{
       display: flex;
       justify-content: center;
-      font-style: normal;color: white;}
+      font-style: normal;color:white;}
 
-  #body{ background-color:black ;}
+  #body{ 
+      background-image:url(Basket.jpg) ;}
 
-  .header{
-      font-style: normal;color: white;
+  #header{
+            position: relative;
+            font-style: normal;color: white;
             background-image:url(Basket.jpg);
 	          width: 100%; 
             height: 500px;
 	          position: fixed;}
-
-  table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  background-color: lightgray;
-  padding: 10PX;}
   #Video{
+    font-style: normal;color: white;
+    position: relative;
     display: flex;
     justify-content: space-around;}
   
   h2{
+    font-style: normal;color: white;
     font-size: 30px;
     display: flex;
     align-items: center;
@@ -38,4 +37,29 @@ h5{display: flex;
 
 
 #pie{font-style:normal ;color: white;}
-  .navbar {background-color: black;}
+  .card{
+    background-color: black;
+    position: relative;
+    font-style: normal;color: white;
+  }
+  #titulo{
+    font-style: normal;color: white;
+  }
+  #stats{font-style: normal;color: white;}
+  #nombreplayer{font-style:normal;color: white;}
+  #noticias{font-style:normal;color: white;}
+  #navbar{
+            position: absolute; 
+            width:100;
+
+
+
+
+  }
+  #KD{display:flex;
+    align-self:center;
+    width:80%;}
+  #jamorant{
+    display: flex;
+
+    width:80%;}
