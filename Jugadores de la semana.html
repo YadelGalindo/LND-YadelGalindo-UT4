@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title>ACTIVIDAD UT4</title>
+    <link rel="stylesheet" href="Actividad4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <!-- navbar -->
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -9,57 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    h1{
-      display: flex;
-      justify-content: center;
-      font-style: normal;color: white;}
-    body{background-color:black ;}
-    .información{background-color: grey;
-      width: 200px;
-      height: 200px;
-      
-    }
-    .header{font-style: normal;color: white;
-            background-image:url(Basket.jpg);
-	          width: 100%; 
-            height: 500px;
-	          left: 0;
-	          top: 0; 
-	          position: fixed; 
-    
-    }
-    table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  background-color: lightgray;
-  padding: 10PX;
-}
-   #Video{
-    display: flex;
-    justify-content: space-around;}
-     h2{
-        font-style:bold;color: darkorange;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;}
-   
-    h5{display: flex;
-       align-items: center;           
-      font-style: normal;color: white;
-    }
-    #noticias{  
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-
-    }
-    h3{font-style: normal;color: white;}
-  
-  </style>
 </head>
-<body>
+<body id="body">
    <!-- Encabezado-->
   <div class="header"></div>
   <!-- Menú de navegación -->
@@ -129,50 +82,28 @@
 </div>
 <br>
   <!-- CUERPO DE LA PÁGINA  -->
-<h1>JUGADORES DE LA SEMANA </h1>
-<br>
-<div id="noticias">
-    <div>
-    <h2>TRASPASADO A PHOENIX</h2>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam scelerisque cursus commodo
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam scelerisque cursus commodo
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam scelerisque cursus commodo
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam scelerisque cursus commodo
-
-    </h3>
+  <div id="cards">
+  <div class="container mt-3">
+    <h2>CURRY</h2>
+    <p>28PT 6RB 9 AST</p>
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="scurry.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">CURRY</h4>
+        <p class="card-text">Jugador de la semana /p>
+      </div>
     </div>
-    <div >
-        <img src="Kevin-Durant.jpg">
+    <br>
+    <p>Image at the bottom (card-img-bottom):</p>
+    <div class="card" style="width:400px">
+      <div class="card-body">
+        <h4 class="card-title">James Harden</h4>
+        <p class="card-text">29PT 6RB 11 AST</p>
+      </div>
+      <img class="card-img-bottom" src="JHARDEN.jpg" alt="Card image" style="width:100%">
     </div>
-
-
-
+  </div>
 </div>
-<BR>
-<div id="noticias">
-    <div>
-    <h2>PROBLEMAS EN MEMPHIS</h2>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam scelerisque cursus commodo
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam scelerisque cursus commodo
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam scelerisque cursus commodo
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam scelerisque cursus commodo
-        
-    </h3>
-    </div>
-    <div id="jamorant">
-        <img src="ja morant.jpg">
-    </div>
 
-
-
-</div>
 </body>
 </html>
