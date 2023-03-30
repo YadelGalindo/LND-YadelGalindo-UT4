@@ -1,65 +1,92 @@
+* {
+  font-family: "Tangerine", serif;
+}
 
+h1 {
+  position: relative;
+  align-items: center;
+  font-style: normal;
+  color: white;
+}
 
-	*{ font-family: 'Tangerine', serif;
-      }
-    h1{
-      display: flex;
-      justify-content: center;
-      font-style: normal;color:white;}
+#body {
+  background-image: url(Basket.jpg);
+}
 
-  #body{ 
-      background-image:url(Basket.jpg) ;}
+#header {
+  position: relative;
+  font-style: normal;
+  color: white;
+  background-image: url(Basket.jpg);
+  width: 100%;
+  height: 500px;
+  position: fixed;
+}
+#Video {
+  font-style: normal;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
 
-  #header{
-            position: relative;
-            font-style: normal;color: white;
-            background-image:url(Basket.jpg);
-	          width: 100%; 
-            height: 500px;
-	          position: fixed;}
-  #Video{
-    font-style: normal;color: white;
-    position: relative;
-    display: flex;
-    justify-content: space-around;}
-  
-  h2{
-    font-style: normal;color: white;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;}
+h2 {
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 
-h5{display: flex;
-       align-items: center;           
-      font-style: normal;color: white;
-    }
+h5 {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  color: white;
+}
 
+#pie {
+  font-style: normal;
+  color: white;
+}
+.card {
+  background-color: black;
+  position: relative;
+  font-style: normal;
+  color: white;
+}
+#titulo {
+  font-style: normal;
+  color: white;
+}
+#stats {
+  font-style: normal;
+  color: white;
+}
+#nombreplayer {
+  font-style: normal;
+  color: white;
+}
+#noticias {
+  font-style: normal;
+  color: white;
+}
+#navbar {
+  position: absolute;
+  width: 100;
+}
+#KD {
+  display: flex;
+  align-self: center;
+  width: 80%;
+}
+#jamorant {
+  display: flex;
+  width: 80%;
+}
 
-#pie{font-style:normal ;color: white;}
-  .card{
-    background-color: black;
-    position: relative;
-    font-style: normal;color: white;
-  }
-  #titulo{
-    font-style: normal;color: white;
-  }
-  #stats{font-style: normal;color: white;}
-  #nombreplayer{font-style:normal;color: white;}
-  #noticias{font-style:normal;color: white;}
-  #navbar{
-            position: absolute; 
-            width:100;
-
-
-
-
-  }
-  #KD{display:flex;
-    align-self:center;
-    width:80%;}
-  #jamorant{
-    display: flex;
-
-    width:80%;}
+.form-group {
+  position: relative;
+  font-style: normal;color: white;
+}
