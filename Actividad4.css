@@ -85,8 +85,19 @@ h5 {
   display: flex;
   width: 80%;
 }
-
-.form-group {
-  position: relative;
-  font-style: normal;color: white;
+#formulario{position:relative;
+            margin-top: 2%;
 }
+
+#sabermas{position: relative;
+margin-top: 2%;}
+.iconos{background-color: white;}
+.iconos:hover{color: lightblue;}
+.mb-3{position: relative;}
+.password{position: relative;}
+#Ofertas{margin-top: 2%;
+margin-left: 30%;
+margin-right: 30%;
+
+}
+.btn {margin-top: 2%;}
