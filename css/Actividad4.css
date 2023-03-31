@@ -1,0 +1,89 @@
+* {
+  font-family: "Tangerine", serif;
+}
+
+body {
+  background-image: url(../imagenes/Basket.jpg);
+}
+
+header {
+  font-style: normal;
+  color: white;
+  height: 500px;
+}
+
+footer {
+  background-color: black;
+  font-style: normal;
+  color: white;
+
+}
+.card {
+  background-color: black;
+  position: relative;
+  font-style: normal;
+  
+}
+#titulo {
+  display: flex;
+  font-style: normal;
+  color: white;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+#stats {
+  font-style: normal;
+  color: white;
+}
+#nombreplayer {
+  font-style: normal;
+  color: white;
+}
+#noticias {
+  font-style: normal;
+  color: white;
+}
+.navbar{
+  position: absolute;
+  width: 100;
+}
+
+#formulario {
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#sabermas {
+  position: relative;
+  margin-top: 2%;
+}
+.iconos {
+  background-color: white;
+  margin-left:4px;
+}
+.iconos:hover {
+  color: lightblue;
+}
+.mb-3 {
+  position: relative;
+}
+.password {
+  position: relative;
+}
+#Ofertas {
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.btn {
+  margin-top: 2%;
+}
+
+input#floatingInput {
+  height: 60px;
+}
+input#floatingPassword {
+  height: 60px;
+}
+
