@@ -101,3 +101,8 @@ margin-right: 30%;
 
 }
 .btn {margin-top: 2%;}
+
+input#floatingInput {
+  height: 60px;}
+  input#floatingPassword {
+    height: 60px;}
