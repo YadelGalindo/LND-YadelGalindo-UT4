@@ -1,0 +1,24 @@
+LVL 24 
+
+flex-wrap:wrap-reverse;
+flex-direction:column-reverse;
+justify-content:center;
+align-content:space-between
+
+Propiedades.
+justify-content(mover eje horizontal)
+	
+	flex-start (default) 
+	flex-end 
+	center 
+	space-between (mismo espacio entre huecos)
+	space-around  ( mucho espacio a su alrededor)
+
+align-items(mover eje vertical)
+flex-direction(colocación de las cajas)
+order
+align-self(alinear cajas individuales)
+flex-wrap(distribuir cajas)
+flex-flow(flex wrap+flex-direction)
+align-content
+flex-grow(repartirmiento de espacio dentro del div)
