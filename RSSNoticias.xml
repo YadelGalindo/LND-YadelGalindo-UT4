@@ -8,7 +8,8 @@
             <item>
                 <title>Noticias</title>
                 <link>Noticias.html</link>
-                <description>Noticias de las últimas jornadas de NBA    </description>
+                <description>Noticias de las últimas jornadas de NBA</description>
+                <fecha>21/03/19</fecha>
             </item>
     </channel>
 </rss>

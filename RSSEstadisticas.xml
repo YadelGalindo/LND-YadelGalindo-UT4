@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Estadísticas</title>
+        <link></link>
+        <description>Estadísticas de las últimas jornadas de NBA</description>
+        <item>
+            <title>Puntos</title>
+            <link>Puntos.html</link>
+            <description>Estadísticas de las últimas jornadas de NBA </description>
+            <fecha>21/03/19</fecha>
+        </item>
+         <item>
+            <title>Rebotes</title>
+            <link>Rebotes.html</link>
+            <description>Estadísticas de las últimas jornadas de NBA </description>
+            <fecha>21/03/19</fecha>
+        </item>
+         <item>
+            <title>Asistencias</title>
+            <link>Estadísticas.html</link>
+            <description>Estadísticas de las últimas jornadas de NBA </description>
+            <fecha>21/03/19</fecha>
+        </item>
+    </channel>
+</rss>
