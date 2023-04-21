@@ -4,19 +4,23 @@
         <title>Estadísticas</title>
         <link></link>
         <description>Estadísticas de las últimas jornadas de NBA</description>
+        <category>Estadísticas</category>
         <item>
+            <category>Estadísticas avanzadas</category>
             <title>Puntos</title>
-            <link>Puntos.html</link>
+            <link>https://yadelgalindo.github.io/LND-YadelGalindo-UT4/Puntos.html</link>
             <description>Estadísticas de las últimas jornadas de NBA </description>
             <fecha>21/03/19</fecha>
         </item>
          <item>
+            <category>Estadísticas avanzadas</category>
             <title>Rebotes</title>
-            <link>Rebotes.html</link>
+            <link>https://yadelgalindo.github.io/LND-YadelGalindo-UT4/Rebotes.html</link>
             <description>Estadísticas de las últimas jornadas de NBA </description>
             <fecha>21/03/19</fecha>
         </item>
          <item>
+            <category>Estadísticas avanzadas</category>
             <title>Asistencias</title>
             <link>Estadísticas.html</link>
             <description>Estadísticas de las últimas jornadas de NBA </description>
