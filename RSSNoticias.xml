@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>Contenido de Rss</title>
+        <title>Noticias Actualidad</title>
         <link>Noticias.html</link>
         <description>Noticias de las últimas jornadas de NBA</description>
         <lenguage>es</lenguage>
+        <image>
+            <title>Nba</title>
+            <url>https://cdn.vox-cdn.com/thumbor/VSNJ_IjIsFd9e3hPh05FpcWRh3E=/0x0:5423x3615/1200x675/filters:focal(2426x1136:3292x2002)/cdn.vox-cdn.com/uploads/chorus_image/image/72195324/1251958056.0.jpg</url>
+            <link>https://yadelgalindo.github.io/LND-YadelGalindo-UT4/</link>
+        </image>
             <item>
-                <title>Noticias</title>
-                <link>Noticias.html</link>
+                <title>Problemas en Brooklyn</title>
+                <link>https://yadelgalindo.github.io/LND-YadelGalindo-UT4/Brooklyn.html</link>
                 <description>Noticias de las últimas jornadas de NBA</description>
                 <fecha>21/03/19</fecha>
+                <enclosure>
+                    <title>Brooklyn</title>
+                    <url>https://nypost.com/wp-content/uploads/sites/2/2023/04/NYPICHPDPICT000009359554-1.jpg</url>
+                </enclosure>
+            </item>
+            <item>
+                <title>El calor de Arizona quema en Phoenix</title>
+                <link>https://yadelgalindo.github.io/LND-YadelGalindo-UT4/Phoenix.html</link>
+                <description>Noticias de las últimas jornadas de NBA</description>
+                <fecha>21/03/19</fecha>
+                <enclosure>
+                    <title>Phoenix</title>
+                    <url>https://media.video-cdn.espn.com/motion/2023/0421/Hu_230421_DEPORTES_NBA_HL_SUNS_VS_CLIPPERS/Hu_230421_DEPORTES_NBA_HL_SUNS_VS_CLIPPERS_5x2.jpg</url>
+                </enclosure>
+
+            </item>
+            <item>
+                <title>Playoff</title>
+                <link>https://yadelgalindo.github.io/LND-YadelGalindo-UT4/Playoff.html</link>
+                <description>Noticias de las últimas jornadas de NBA</description>
+                <fecha>21/03/19</fecha>
+                <enclosure>
+                    <title>Playoff</title>
+                    <url>https://www.bofrost.es/on/demandware.static/-/Sites-ES-master-catalog/default/dw75ead294/images/1782-pizza-especial.jpg</url>
+                </enclosure>
             </item>
     </channel>
 </rss>

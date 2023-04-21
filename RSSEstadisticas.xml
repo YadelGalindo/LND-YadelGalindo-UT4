@@ -2,7 +2,6 @@
 <rss version="2.0">
     <channel>
         <title>Estadísticas</title>
-        <link></link>
         <description>Estadísticas de las últimas jornadas de NBA</description>
         <category>Estadísticas</category>
         <item>
@@ -22,7 +21,7 @@
          <item>
             <category>Estadísticas avanzadas</category>
             <title>Asistencias</title>
-            <link>Estadísticas.html</link>
+            <link>https://yadelgalindo.github.io/LND-YadelGalindo-UT4/Asistencias.html</link>
             <description>Estadísticas de las últimas jornadas de NBA </description>
             <fecha>21/03/19</fecha>
         </item>
